@@ -34,22 +34,30 @@
 [1] "Implementing and Detecting a PCI Rootkit",
  John Heasman, http://www.blackhat.com/presentations/
  bh-dc-07/Heasman/Paper/bh-dc-07-Heasman-WP.pdf
+
 [2] "DE MYSTERIIS DOM JOBSIVS: MAC EFI ROOTKITS", Loukas K.,
  http://ho.ax/downloads/De_Mysteriis_Dom_Jobsivs_Black_Hat_Slides.pdf
+
 [3] "UEFI and PCI Bootkits", Pierre Chifflier, https://pacsec.jp/
  psj13/psj2013-day2_Pierre_pacsec-uefi-pci.pdf
+
 [4] "Thunderstrike: EFI firmware bootkits for Apple MacBooks",
  Trammell Hudson, Larry Rudolph, https://dl.acm.org/
  citation.cfm?id=2757673
+
 [5] "Thunderstrike 2: Sith Strike", Trammel Hudson, Xeno Kovah,
 Corey Kallenberg, http://trmm.net/Thunderstrike_2
 
 #Usage:
 
 sudo kextload DirectHW.kext
+
 sudo tg3-eeprom > my.orom
+
  (it must be named "my.orom")
+
 python t2e_integrity_check.py
 
 If your OROM is intact, a message to that effect will print.
+
 If not, send any alerts/errors to xeno@legbacore.com
