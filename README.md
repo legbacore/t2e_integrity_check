@@ -48,6 +48,12 @@
 [5] "Thunderstrike 2: Sith Strike", Trammel Hudson, Xeno Kovah,
 Corey Kallenberg, http://trmm.net/Thunderstrike_2
 
+#Other code
+
+The binary version of DirectHW.kext was compiled from Trammell Hudson's https://github.com/osresearch/rwmem
+
+The binary version of tg3-eeprom was compiled from Trammell Hundson's https://github.com/osresearch/b57tool
+
 #Usage:
 
 sudo kextload DirectHW.kext
