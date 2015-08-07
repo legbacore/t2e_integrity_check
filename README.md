@@ -57,7 +57,9 @@ The binary version of tg3-eeprom was compiled from Trammell Hundson's https://gi
 #Usage:
 
 sudo chmod -R 700 DirectHW.kext/
+
 sudo chown -R root:wheel DirectHW.kext/
+
 sudo kextload DirectHW.kext
 
 sudo ./tg3-eeprom > my.orom
